@@ -1,0 +1,10 @@
+flutter_icons:
+  android: "launcher_icon"  # Name of the icon in Android
+  ios: true  # Generate icons for iOS
+  image_path: "assets/icon.png"  # Path to your icon image
+  # Optional platform-specific settings:
+  min_sdk_android: 21
+  web:
+    generate: true
+    background_color: "#ffffff"
+    theme_color: "#000000"
